@@ -184,8 +184,7 @@ export default {
                 $('#delCouponModal').modal('hide');
                 vm.getCoupons();
             }else{
-                 alert('刪除失敗')
-             
+                 alert('刪除失敗') 
             }
         })
     },
